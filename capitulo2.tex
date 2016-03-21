@@ -1,0 +1,159 @@
+\chapter{Interface do Usu\'ario}
+
+Este cap\'itulo concentra recomenda\c c\~oes de seguran\c ca que dizem respeito \`a interface do usu\'ario. Como mencionado no pref\'acio, estas recomenda\c c\~oes possuem como caracter\'isticas, serem pr\'aticas e prudentes, fornecerem um claro benef\'icio em rela\c c\~ao \`a seguran\c ca, e gerarem um impacto m\'inimo na usabilidade do dispositivo iOS.
+
+\section{Atualizar o dispositivo para a vers\~ao mais recente do iOS}
+
+Seguir esta recomenda\c c\~ao garante que a vers\~ao do sistema operacional iOS instalada no dispositivo seja sempre a mais recente. As vers\~oes atualizadas geralmente trazem consigo corre\c c\~oes para falhas cr\'iticas de seguran\c ca. 
+
+Assim, manter o sistema iOS sempre atualizado reduz a probabilidade de pessoas mal intencionadas e com compet\^encia t\'ecnica, explorarem remotamente vulnerabilidades presentes no dispositivo. 
+
+H\'a duas maneiras de se verificar atualiza\c c\~oes do iOS est\~ao dispon\'iveis. Via OTA (over-the-air), ou atrav\'es do iTunes. Caso o leitor queira verificar atualiza\c c\~oes via OTA, deve-se fazer o seguinte: 
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar Geral
+\item Pressionar Atualiza\c c\~ao de Software
+\item Caso alguma atualiza\c c\~ao esteja dispon\'ivel, pressionar Download
+\item Ap\'os o download, pressionar Instalar, para atualizar o iOS
+\end{enumerate}
+
+Caso o leitor queira verificar atualiza\c c\~oes atrav\'es do iTunes, deve-se fazer o seguinte:
+
+\begin{enumerate}
+\item Conectar o dispositivo ao computador
+\item Abrir o iTunes
+\item Na lista de dispositivos, selecionar o dispositivo a ser atualizado
+\item Clicar em Verificar Atualiza\c c\~oes
+\item Caso haja alguma atualiza\c c\~ao dispon\'ivel, clicar em Baixar e Instalar
+\end{enumerate}
+
+\'E bom lembrar que n\~ao se deve desligar nem desconectar o dispositivo (no caso da atualiza\c c\~ao via iTunes) enquanto o processo de atualiza\c c\~ao n\~ao terminar!
+
+\section{Habilitar o bloqueio do dispositivo atrav\'es de c\'odigo}
+
+Esta recomenda\c c\~ao determina que um c\'odigo de bloqueio seja sempre solicitado antes de se permitir o acesso ao dispositivo. 
+
+\'E altamente recomendado que um c\'odigo de bloqueio seja configurado, para que pessoas estranhas n\~ao adquiram acesso f\'acil e imediato \`as informa\c c\~oes armazenadas no dispositivo. 
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar C\'odigo ou Touch ID e C\'odigo
+\item Pressionar Ativar C\'odigo
+\item Digitar um c\'odigo
+\item Digitar novamente o c\'odigo
+\end{enumerate}
+
+\section{Configurar o modo de espera da tela}
+
+Esta recomenda\c c\~ao define a quantidade de minutos em que o dispositivo pode ficar inativo antes de requerer a senha novamente. Claro que, quanto menor o tempo, menor ser\'a a probabilidade de pessoas mal intencionadas acessarem informa\c c\~oes sem a necessidade de se digitar uma senha. O tempo recomendado \'e de dois minutos.
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar Geral
+\item Pressionar Bloqueio autom\'atico
+\item Selecionar 2 minutos
+\end{enumerate}
+
+\section{Desativar o recurso de VPN} 
+
+Dispositivos iOS podem se conectar nativamente a servi\c cos de VPN que usam os seguintes protocolos:
+
+\begin{itemize}
+\item L2TP sobre IPSec
+\item PPTP
+\item IPSec da Cisco
+\end{itemize}
+
+Caso o dispositivo possua uma conex\~ao VPN configurada, ele s\'o deve ser ativado quando for necess\'ario. Do contr\'ario, aplicativos maliciosos ou ``trojanizados'', podem acessar os recursos de VPN do dispositivo.
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar Geral
+\item Pressionar VPN
+\item Desativar o recurso de VPN, caso ele esteja ativado
+\end{enumerate}
+
+\section{Desativar o Bluetooth}
+
+A tecnologia Bluetooth permite a conex\~ao de diversos acess\'orios ao dispositivo (fones de ouvido, kits veiculares, teclados, e outros) sem a necessidade de fios. 
+
+\'E recomendado que tal recurso permane\c ca desativado quando n\~ao estiver em uso, caso contr\'ario haver\'a um aumento do risco de descoberta do dispositivo e de conex\~ao a servi\c cos desconhecidos e n\~ao confi\'aveis baseados nesta tecnologia.
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar Bluetooth
+\item Desativar o Bluetooth, caso ele se encontre ativado
+\end{enumerate}
+
+\section{Desativar o AirDrop}
+
+Esta configura\c c\~ao evita que o dispositivo seja descoberto, via Airdrop, por algu\'em (incluindo os contatos). 
+
+A justificativa para a sua desativa\c c\~ao \'e a mesma do caso do Bluetooth, na se\c c\~ao anterior.
+
+\begin{enumerate}
+\item Desbloquear o dispositivo
+\item Deslizar a parte inferior da tela para cima, a fim de exibir a Central de Controle
+\item Pressionar o campo AirDrop na parte inferior da Central de Controle
+\item Pressionar Inativo 
+\end{enumerate}
+
+\section{Desativar as solicita\c c\~oes de conex\~ao a redes Wi-Fi}
+
+Quando o dipositivo (seja ele um iPhone, um iPad, ou um iPod) tenta se conectar \`a internet mas n\~ao est\'a em uma faixa de redes Wi-Fi previamente utilizada, ele procura por outras redes e exibe uma lista de todas as redes Wi-Fi dispon\'iveis, para que o usu\'ario escolha alguma.
+
+\'E recomendado que tal funcionalidade seja desativada. O usu\'ario ter\'a de configurar e se conectar manualmente a uma rede Wi-Fi, mas este comportamento reduz as chances de se conectar inadvertidamente a redes n\~ao confi\'aveis.
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar Wi-Fi
+\item Desativar a op\c c\~ao Solicitar Conex\~ao 
+\end{enumerate}
+
+\section{Habilitar o download autom\'atico de atualiza\c c\~oes de aplicativos}
+
+Esta recomenda\c c\~ao garante que as vers\~oes dos aplicativos instalados no dispositivo sejam sempre as mais recentes. 
+
+A justificativa \'e que as vers\~oes mais recentes geralmente trazem consigo corre\c c\~oes para falhas cr\'iticas de seguran\c ca. 
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar iTunes Store e App Store
+\item Na se\c c\~ao TRANSFER\^ENCIAS AUTOM\'ATICAS, ativar a op\c c\~ao Atualiza\c c\~oes
+\end{enumerate}
+
+\section{Apagar as informa\c c\~oes armazenadas no dispositivo antes de se desfazer dele}
+
+Recomenda-se apagar todas as informa\c c\~oes contidas no armazenamento interno do dispositivo, restaurando-o para as configura\c c\~oes padr\~oes de f\'abrica, antes de se desfazer dele. 
+
+Algumas situa\c c\~oes incluem:
+
+\begin{itemize}
+\item entregar o aparelho para a assist\^encia t\'ecnica, para conserto
+\item vend\^e-lo para outra pessoa
+\item do\'a-lo a algu\'em
+\item jog\'a-lo diretamente no lixo
+\end{itemize}
+
+Manter informa\c c\~oes pessoais no dispositivo antes de repass\'a-lo, aumenta o risco de pessoas maliciosas acessarem e publicarem informa\c c\~oes confidenciais armazenadas. Esta tem sido uma das principais causas de vazamentos de fotos e v\'ideos \'intimos na internet. 
+
+Realizar c\'opias de seguran\c ca (backups) das informa\c c\~oes, antes de se realizar a remo\c c\~ao das mesmas, tambem \'e importante.
+
+Antes de se restaurar o dispositivo para as configura\c c\~oes de f\'abrica, \'e necess\'ario desativar o servi\c co iMessage, procedendo da seguinte forma:
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar Mensagens
+\item Desativar o iMessage
+\end{enumerate}
+
+E finalmente, seguem logo abaixo as instru\c c\~oes para se restaurar o dispositivo, apagando quaisquer informa\c c\~oes pessoais armazenadas:
+
+\begin{enumerate}
+\item Pressionar Ajustes
+\item Pressionar Geral
+\item Pressionar Redefinir
+\item Pressionar Redefinir Todos os Ajustes
+\item Digitar o c\'odigo, caso o mesmo tenha sido previamente configurado
+\end{enumerate}
